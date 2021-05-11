@@ -4,8 +4,8 @@
   <span>O Projeto</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <span>Tecnologias</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
----
 
+---
 
 
 ## 📝 O Projeto
