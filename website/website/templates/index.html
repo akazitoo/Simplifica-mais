@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!-- Política Municipal de Saúde Integral da População LGBT+ -->
+    <section id="politica">
+    <div id="politica-div">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <h2><mark>O que é a Política Municipal 
+                de Saúde Integral da 
+                População LGBT+?</mark></h2>
+              <p>Desde 2016, em uma iniciativa pioneira na região Norte-Nordeste, o Recife desenvolve a 
+                Política Municipal de Atenção Integral à Saúde da População LGBT, que tem como 
+                objetivo proporcionar um acolhimento e atendimento sem preconceito e discriminação 
+                na rede de saúde, proporcionando o acesso dessa população aos serviços de saúde, a 
+                criação de vínculo e o cuidado com esse público. </p>
+                <div class="butao"> 
+  
+                                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-blue-grey butao-index" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <u>LER MAIS</u>
+                  </button>
+  
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">O que é a Política Municipal de Saúde Integral da População LGBT+?</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h2></h2>
+  
+                          <p>Desde 2016, Recife instituiu a Política Municipal de Atenção Integral à População de
+                             Lésbicas, Gays, Bissexuais, Travestis e Transexuais. Assim, a política pública ajuda a 
+                             eliminar a discriminação e o preconceito institucional, contribuindo para a redução das 
+                             desigualdades e para a consolidação do Sistema Único de Saúde. </p>
+                            
+                          <p>O Serviço não desvincula a pessoa de seu território, e na maioria das vezes aproxima a 
+                            população LGBT da Unidade de Saúde da Família. Este avanço da Secretaria de Saúde do 
+                            Recife vem contribuindo com a melhora da saúde física e mental da população LGBT da 
+                            cidade do Recife.</p>
+  
+                          <p>A política atende 4 ambulatórios: <strong>Ambulatório LGBT Patrícia Gomes</strong>; 
+                            <strong>Ambulatório LBT Hospital da Mulher</strong>; 
+                            <strong>Ambulatório LGBT Darlen Gasparelle</strong>; e 
+                            <strong>Ambulatório LGBT Jaboatão.</strong></p>
+                          
+                          <p>Há um decreto municipal que garante às pessoas travestis e transexuais o direito de 
+                            utilizar o nome social nos registros das unidades de saúde.</p>
+  
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendi!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+            </div>
+            <div class="col-md-6 text-center align-self-left">
+              <img src="{{ url_for('static', filename='img/politica.jpeg') }}" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+      <!-- //Política Municipal de Saúde Integral da População LGBT+ -->
+      
+      <!-- Locais -->
+      <section id="locais">
+      <div id="locais-div">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center align-self-center">
+              <h2>Ambulatórios da Região Metropolitana do Recife</h2>
+            </div>
+          </div>
+          <div class="row" id="ambulatorios">
+  
+            <div class="card text-center" style="width: 16rem;">
+              <img src="{{ url_for('static', filename='img/amb1.jpeg') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Ambulatório LGBT Patrícia Gomes</p>
+              </div>
+            </div>
+  
+            <div class="card text-center" style="width: 16rem;">
+              <img src="{{ url_for('static', filename='img/amb2.jpeg') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Ambulatório LBT  Hospital da Mulher</p>
+              </div>
+            </div>
+  
+            <div class="card text-center" style="width: 16rem;">
+              <img src="{{ url_for('static', filename='img/amb3.jpeg') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Ambulatório LGBT Darlen Gasparelle</p>
+              </div>
+            </div>
+  
+            <div class="card text-center" style="width: 16rem;">
+              <img src="{{ url_for('static', filename='img/amb4.jpeg') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Ambulatório LGBT Jaboatão</p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- //Locais -->
+  
+      <div class="link-simplifica">
+        <div class="container text-center">
+          <a class="btn btn-primary" href="{{ url_for('form_page') }}" role="button">Quero acessar um ambulatório LGBT+ do SUS</a>
+        </div>
+      </div>
+  
+      <!-- Profissionais -->
+      <section id="profissionais">
+      <div id="profissionais-div">
+        <div class="container">
+  
+          <div class="row">
+            <div class="col text-center align-self-center">
+              <h2>Profissionais voltados para a Atenção LGBT+</h2>
+            </div>
+          </div>
+  
+          <div class="row" id="linha2">
+  
+            <div class="col-md-6 text-center align-self-right">
+              <img src="{{ url_for('static', filename='img/profissional.jpeg') }}" class="img-fluid" alt="" width="90%" height="30%">
+            </div>
+  
+            <div class="col-md-6 text-left align-self-center" id="descricao">
+              <h3>Maria Emília, psicóloga</h3>
+              <p>“Sou psicóloga da Atenção LGBT+ no Recife há 4 anos, 
+                acredito que o acolhimento é imprescindível. Aqui, você será 
+                tratade da maneira mais humanizada possível.”</p>
+              
+                <div class="butao"> 
+                  
+                                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-blue-grey butao-index" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <u>VEJA MAIS</u>
+                  </button>
+  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Profissionais</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+  
+  
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendi!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+      </div>
+    </section>
+      <!-- //Profissionais -->
+  
+      <!-- A Simplifica+ -->
+      <section id="simplifica">
+      <div id="simplifica-div">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <h2>O que é a <img src="{{ url_for('static', filename='img/logo.svg') }}" class="img-fluid" width="40%" alt=""> ?</h2>
+              <p>A Simplifica+ nasceu com intuito de simplificar o acesso da população LGBTQIA+ da Região Metropolitana do Recife
+                ao serviço de saúde mental oferecido pela Política Municipal de Saúde Integral da População LGBT+. </p>
+                <div class="butao"> 
+  
+                  
+  
+                                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-blue-grey butao-index" data-bs-toggle="modal" data-bs-target="#testeSimplifica">
+                    <u>LER MAIS</u>
+                  </button>
+  
+                  <!-- Modal -->
+                  <div class="modal fade" id="testeSimplifica" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="simplificaLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="simplificaLabel">A Simplifica+</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h4>O que é a Simplifica+?</h4>
+  
+                          <p>A Simplifica+ é um serviço web que simplifica o acesso da população LGBTQIA+ da Região Metropolitana do Recife ao serviço de 
+                            saúde mental oferecido pela Política Municipal de Saúde Integral da População LGBT+.</p>
+                            
+                          <h4>Por que a Simplifica+ existe?</h4>
+  
+                          <p>Criado por estudantes do primeiro período dos cursos de graduação da CESAR School, escola de inovação do CESAR, a Simplifica+ nasceu dentro da disciplina de Projetos. 
+                            Dentro do tema Saúde, após uma primeira fase de pesquisa exploratória, a equipe do 
+                            projeto identificou uma grande relevância em entender e simplificar a situação do acesso
+                            ao serviço de saúde mental do SUS voltado para a população LGBTQIA+, no contexto de
+                            isolamento social em enfrentamento à pandemia do novo coronavírus </p>
+  
+                          <h4>Quem criou a Simplifica+?</h4>
+                            
+                          <p>Designers: Clara Castanha e Júlio de Abreu.</p>
+  
+                          <p>Desenvolvedores: André Carvalho, André Cavalcanti, Anthony Kevin, João Pedro Cordeiro, Lucas de Coimbra e Matheus Desjardins.</p>
+  
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal"> Entendi!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+            </div>
+            <div class="col-md-6 text-center align-self-left">
+              <img src="{{ url_for('static', filename='img/simplifica.jpeg') }}" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- //A Simplifica+ -->
+  
+      <div class="link-simplifica">
+        <div class="container text-center">
+          <a class="btn btn-primary" href="{{ url_for('form_page') }}" role="button">Quero acessar um ambulatório LGBT+ do SUS</a>
+        </div>
+      </div>
+{% endblock %}

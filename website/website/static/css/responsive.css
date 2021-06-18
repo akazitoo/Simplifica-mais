@@ -1,0 +1,88 @@
+@media (min-width: 1200px) {
+    .container #ambulatorios {
+        align-items: center;
+        display: flex;
+        padding-left: 3rem;
+        padding-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ambulatorios .card {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    #ambulatorios {
+        display: flex;
+    }
+
+    .container #ambulatorios {
+        align-items: center;
+        display: flex;
+        padding-left: 1rem;
+        padding-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ambulatorios .card {
+        margin-top: 1rem;
+        margin-left: 3%;
+        margin-right: none;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border: none;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .container #ambulatorios {
+        align-items: center;
+        display: flex;
+        padding-left: 1rem;
+        padding-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ambulatorios .card {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border: none;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .container #ambulatorios {
+        padding-left: 1rem;
+    }
+
+    .container #ambulatorios {
+        align-items: center;
+        display: flex;
+        padding-left: 1rem;
+        padding-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ambulatorios .card {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        border: none;
+    }
+
+}

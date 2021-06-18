@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="auth-form">
+    <div class="container">
+        
+        <div id="encaminhamento">
+            <div class="container">
+              <div class="col text-center align-self-center">
+                <h4>Estamos te redirecionando para o <strong>WhatsApp</strong>! Você </h4>
+                <h4>conversará com uma <strong>pessoa da área de saúde </strong></h4>
+                <h4><strong>mental LGBT+</strong> do SUS.</h4>
+              <br>
+              </div>
+      
+              <div class="row g-3">
+
+                <div class="col-md-12 text-center">
+                    <a class="btn btn-outline-success custom" target="_blank" href="https://wa.me/" role="button">Ir para o WhatsApp.</a>
+                </div>
+                <div class="col-md-12 text-center">
+                  <a class="btn btn-outline-primary custom" href="{{ url_for('index') }}" role="button">Voltar para página inicial.</a>
+                </div>
+                
+            </div>
+
+    </div>
+</div>
+
+{% endblock %}

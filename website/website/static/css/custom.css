@@ -1,0 +1,161 @@
+#header {
+    margin: auto;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: background ease-out 0.2s;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+#header {
+    width: auto;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+#header .nav-link {
+    color: #545454;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    margin-left: .8rem;
+    margin-left: 4rem;
+    margin-right: .8rem;
+}
+
+#header .nav-link:hover {
+    color: rgba(0,0,0,.9);
+}
+
+#politica-div {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+#politica-div mark {
+    background-color: #F5C43B;
+    color: black;
+}
+
+#politica-div h2 {
+    padding-bottom: 1rem;
+    line-height: 160%;
+}
+
+.butao .butao-index{
+    margin-bottom: 1rem;
+    padding-left: 0%;
+}
+
+#logo .img-fluid {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#ambulatorios {
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.container #ambulatorios {
+    align-items: center;
+    display: flex;
+    padding-left: 12.5%;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ambulatorios .card {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+#ambulatorios .card .card-body {
+    padding-top: .4rem;
+}
+
+#profissionais-div {
+    padding-top: 8rem;
+}
+
+#profissionais-div #linha2 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#descricao {
+    margin-top: 2rem;
+}
+
+#simplifica-div {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#ilustracao {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
+#ambulatorio-form h2 {
+    padding-bottom: 1rem;
+    line-height: 160%;
+}
+
+#ambulatorio-form mark {
+    background-color: #FF895A;
+    color: black;
+}
+
+#formulario {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+#confirma {
+    padding-top: 1rem;
+}
+
+#patricia-gomes #agradecimento {
+    padding-bottom: 3rem;
+}
+
+.custom {
+    width: 20rem;
+}
+
+.custom-h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+}
+
+#encaminhamento {
+    padding-top: 3rem;
+}
+
+#auth-form .btn {
+    margin-bottom: 2rem;
+}
+
+#error-404 h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #2A70D9;
+}
+
+#error-404 p {
+    font-weight: 600;
+    font-size: 2rem;
+}

@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="ambulatorio-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h2><mark>Você quer acessar um dos ambulatórios LGBT+ da Região Metropolitana do Recife?</mark></h2>
+          <p>O atendimento nos Ambulatórios LGBT+ da RMR acontecem por demanda 
+              espontânea*, mas, ao responder este formulário, uma pessoa do Sistema
+               irá entrar em contato com você para agendar uma consulta </p>
+               <p>*Sem marcação de horário</p>
+            <div class="butao">
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">O que é a Política Municipal de Saúde Integral da População LGBT+?</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendi!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+        <div class="col-md-6 text-center align-self-left">
+          <img src="{{ url_for('static', filename='img/acesse.jpeg') }}" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="formulario">
+    <div class="container">
+        <form action="" method="POST">
+         <div class="col-md-7 col-lg-8">
+            {{ form.csrf_token }}
+            <h4 class="mb-3">Formulário</h4>
+             <form class="needs-validation" novalidate>
+              <div class="row g-3">
+
+                <div class="col-sm-12">
+                  <label for="" class="form-label">Seu município </label>
+                  {{ form.county(class="form-control", placeholder="Recife/Jaboatão/Camaragibe") }}
+                  <div class="invalid-feedback">
+                    O campo é obrigatório.
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <label for="" class="form-label">Com qual gênero você se identifica?</label>
+                    {{ form.gender(class="form-control", placeholder="Mulher cisgênero/Homem transgênero/ ...") }}
+                    <div class="invalid-feedback">
+                      O campo é obrigatório.
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <label for="" class="form-label">De qual letra da sigla LGBTQIA+ você faz parte?</label>
+                    {{ form.lgbtqia_plus(class="form-control", placeholder="L, G, B, T, ...") }}
+                    <div class="invalid-feedback">
+                      O campo é obrigatório.
+                    </div>
+                </div>
+
+                <div class="col-sm-12" id="confirma">
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+                </div>
+              </div>
+            </div>
+            
+         </form>
+        </div>
+  </div>
+
+{% endblock %}

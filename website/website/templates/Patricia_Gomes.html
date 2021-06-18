@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="patricia-gomes">
+      <div class="container">
+
+        <div class="row" id="agradecimento">
+          <div class="col text-center align-self-center">
+            <h2 class= "custom-h2">Agradecemos pelas suas respostas!</h2>
+            <h2>O ambulatório que você  pode acessar é:</h2>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 text-center align-self-right">
+            <img src="{{ url_for('static', filename='img/amb1.jpeg') }}" class="img-fluid" alt="" width="60%">
+          </div>
+
+          <div class="col-md-6 text-left align-self-center" id="descricao">
+            <h3>Ambulatório LGBT <strong>Patrícia Gomes</strong></h3>
+            <p><img src="{{ url_for('static', filename='img/endereco.svg') }}" class="img-fluid" alt=""> Estr. dos Remédios, 2416 - Madalena, Recife - PE, 50770-120</p>
+            <p><img src="{{ url_for('static', filename='img/phone.svg') }}" class="img-fluid" alt=""> (81) 3355-7805</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="encaminhamento">
+      <div class="container">
+        <div class="col text-center align-self-center">
+          <h4>Você precisa falar com alguém neste momento?</h4>
+        <p>Conversar, trocar ideia, desabafar...</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-12 text-center">
+            <a class="btn btn-outline-primary custom" href="{{ url_for('index') }}" role="button">Não, tudo bem voltar para página inicial.</a>
+          </div>
+    
+          <div class="col-md-12 text-center">
+            <a class="btn btn-outline-success custom" href="{{ url_for('authentication') }}" role="button">Sim, preciso falar com alguém agora.</a>
+          </div>
+      </div>
+    </div>
+
+    
+{% endblock %}
