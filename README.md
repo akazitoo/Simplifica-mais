@@ -51,7 +51,7 @@ Membros de design do grupo Simplifica+ :
 
 [:link: Link para o protótipo de alta fidelidade.](https://www.figma.com/proto/RKbixBnK2K13RrUWjMtkYQ/[alta]-Simplifica?node-id=194%3A0&scaling=min-zoom )
 
-[:link: Link para o dossiê.]()
+[:link: Link para o dossiê.](https://drive.google.com/file/d/1x3AcIuyrYp_7RdGNJ9klJOF7jvCB5fSi/view?usp=sharing)
 
 [:link: Link para a apresentação.](https://drive.google.com/file/d/1vvI-xFujDeT5QM6osi0hHpSTsBxDlcLI/view?usp=sharing)
 
